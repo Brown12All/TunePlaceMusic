@@ -22,19 +22,18 @@ body::-webkit-scrollbar{
 }
 
 header{
+    background-color: #7A78FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 10px;
+    padding: 10px 40px;
     margin-bottom: 25px;
 }
 
-header .logoname{
+header .logoname a{
     font-family: 'Pricedown', sans-serif;
-    color: #7a78faad;
+    color: white;
     font-size: 30px;
     margin-left: 5px;
 }
@@ -56,7 +55,7 @@ header .navbarPC a:hover{
     display: none;
 }
 .hamburger svg{
-    fill: #7A78FA;
+    fill: white;
     width: 25px;
 }
 
@@ -67,7 +66,8 @@ header .navbarPC a:hover{
 .MobileMenu{
     display: none;
     background-color: #7A78FA;
-    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: absolute;
     top: 50px;
     right: 20px;

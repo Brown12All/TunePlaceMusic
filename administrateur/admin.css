@@ -18,8 +18,7 @@ body{
     color: white;
     text-align: center;
     overflow-x: hidden;
-    padding-left: 40px;
-    padding-right: 40px; 
+    
     font-family: 'Poppins', sans-serif ;
     
 }
@@ -28,20 +27,22 @@ body::-webkit-scrollbar{
 }
 
 header{
+    background-color: #7A78FA;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+    padding: 10px 40px;
     /* padding-left: 40px;
     padding-right: 40px; */
-    margin-top: 10px;
-    margin-bottom: 25px;
+    /* margin-top: 10px; */
+   
 }
 
-header .logoname{
+header .logoname a{
     font-family: 'Pricedown', sans-serif;
 
-    color: #7a78faad;
+    color: white;
     font-size: 30px;
     margin-left: 5px;
 }
@@ -63,7 +64,7 @@ header .navbarPC a:hover{
     display: none;
 }
 .hamburger svg{
-    fill: #7A78FA;
+    fill: white;
     width: 25px;
 }
 
@@ -74,7 +75,8 @@ header .navbarPC a:hover{
 .MobileMenu{
     display: none;
     background-color: #7A78FA;
-    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     position: absolute;
     top: 50px;
     right: 20px;
@@ -99,11 +101,16 @@ header .navbarPC a:hover{
     height: auto;
     margin-top: 17vh;
     align-items: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .gauche{
     width: 50%;
     display: block;
 }
+
+
 .globe img{
     width: 60%;
     margin-bottom: 20px;
@@ -127,7 +134,10 @@ header .navbarPC a:hover{
 
 
 
-
+.bloc{
+    margin-left: 60px;
+    margin-right: 60px;
+}
 .bloc img{
     width: 60%;
     margin-bottom: 20px;
