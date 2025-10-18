@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} 
+@font-face {
+  font-family: 'Pricedown';
+  src: url('../fonts/Pricedown.tff.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    background-color: #1a1818;
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif ;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+header .logoname{
+    font-family: 'Pricedown', sans-serif;
+    color: #7a78faad;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+
+
+header .navbarPC a{
+    margin: 25px;
+    color: white;
+}
+header .navbarPC a:hover{
+    color: darkgrey;
+}
+
+
+
+
+.hamburger{
+    display: none;
+}
+.hamburger svg{
+    fill: #7A78FA;
+    width: 25px;
+}
+
+
+
+
+
+.MobileMenu{
+    display: none;
+    background-color: #7A78FA;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 180px;
+    text-align: center;
+}
+.MobileMenu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+#TRENDINGS{
+    text-align: left;
+    margin: 80px 0 0 50px;
+}
+
+
+
+main{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+
+
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+main a{
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .bloc-photo{
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.158);
+    border-radius: 20px;
+
+    margin: 40px auto;
+    padding-bottom: 10px;
+
+    width: 250px;
+    height: auto;
+    text-align: center;
+}    
+main .bloc-photo:hover{
+    
+    color: white;
+    border: 2px solid #7A78FA;
+    transition: ease 2s;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20PX;
+    border-top-right-radius: 20px;
+}
+img:hover{
+    transition: ease 2s;
+}
+audio{
+    width: 210px;
+    margin-top: 10px;
+}
+main .bloc-photo h4{
+    margin: 10px 5px;
+    color: #7A78FA;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+main .bloc-photo p{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;    
+    }
+
+    header .navbarPC a{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 21px;
+        cursor: pointer;
+    }
+
+
+
+    #TRENDINGS{
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+    main{
+        justify-content: space-between;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+        width: 100%;
+        background-color: #1a1818;;
+        flex-wrap: wrap;
+        padding: 10px 50px;
+    }
+
+    main a{
+       margin: 120px;
+    }
+
+
+    
+    main .bloc-photo{
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+
+    
+    width: 275px;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+main .bloc-photo:hover{
+    border-radius: 20px;
+    color: white;
+    border: 2px solid #7A78FA;
+    transition: ease 2s;
+}
+
+img{
+    width: 100%;
+    height: 240
+}
+img:hover{
+    border-top-left-radius: 20PX;
+    border-top-right-radius: 20px;
+    transition: ease 2s;
+}
+audio{
+    width: 90%;
+    margin-top: 10px;
+}
+main .bloc-photo h4{
+    margin: 10px 5px;
+    color: #7A78FA;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+
+
+}
