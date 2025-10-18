@@ -33,6 +33,10 @@ header{
     align-items: center;
     color: white;
     padding: 10px 40px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     /* padding-left: 40px;
     padding-right: 40px; */
     /* margin-top: 10px; */

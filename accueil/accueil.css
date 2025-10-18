@@ -24,6 +24,9 @@ body::-webkit-scrollbar{
 header{
     background-color: #7A78FA;
     color: #1a1818;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
 
     display: flex;
@@ -150,11 +153,15 @@ main .bloc button:hover{
 
 footer{
     background-color: rgb(24, 22, 22);
-    display: flex;
+    /* display: flex;
     text-align: center;
     justify-content: space-between;
     padding: 20px 130px;
-    margin-top: 20px;
+    margin-top: 20px; */
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 footer .tuneplace{
     display: block;
@@ -186,16 +193,7 @@ footer .tuneplace button:hover{
     color: #FFF;
 }    
 
-footer .liens a{
-    display: block;
-    margin: 25px;
-    color: white;
-}
 
-
-footer a:hover{
-    color: darkgrey;
-}
 
 
 
@@ -227,7 +225,7 @@ footer a:hover{
 
     main .bloc{
         padding: 15px 25px;
-        margin: 40px 60px;
+        margin: 40px 2px;
         background-color: rgba(0, 0, 0, 0.178);
         width: auto;
         height: auto;

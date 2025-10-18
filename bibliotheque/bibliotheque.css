@@ -29,6 +29,10 @@ header{
     color: white;
     padding: 10px 40px;
     margin-bottom: 25px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header .logoname a{
@@ -113,15 +117,19 @@ main .bloc-photo{
     margin: 40px auto;
     padding-bottom: 10px;
 
+
+    
+    transition: all 0.5s ease;
+
     width: 250px;
     height: auto;
     text-align: center;
 }    
 main .bloc-photo:hover{
-    
-    color: white;
     border: 2px solid #7A78FA;
-    transition: ease 2s;
+    transform: scale(1.1);
+    color: white;
+    
 }
 
 img{
