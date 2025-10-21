@@ -179,12 +179,22 @@ footer .tuneplace input{
     padding-left: 20px;
     margin-bottom: 10px;
 }
+footer textarea {
+    width: 340px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
 footer .tuneplace button{
     width: 360px;
     height: 35px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 footer .tuneplace button:hover{
     cursor: pointer;
@@ -276,8 +286,17 @@ footer .tuneplace button:hover{
 
 
     footer .tuneplace input{
-        width: 90%;
+        width: 80%;
         height: 35px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    footer textarea{
+        width: 80%;
+        height: 70px;
         border: none;
         outline: none;
         border-radius: 10px;
@@ -288,8 +307,9 @@ footer .tuneplace button:hover{
         width: 90%;
         height: 35px;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         font-weight: 600;
+        margin-bottom: 5px;
     }
     footer .tuneplace button:hover{
         cursor: pointer;
@@ -313,10 +333,6 @@ footer .tuneplace button:hover{
     footer a:hover{
         color: darkgrey;
     }
-
-
-
-
 
 }
 

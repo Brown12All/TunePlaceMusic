@@ -11,15 +11,15 @@ body{
     align-items: center;
     color: white;
     font-family: 'Poppins', sans-serif ;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
 }
 
-.logo{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    margin-top: 10%;
-}
+
 .logo .logoname h1{
     font-family: 'Pricedown', sans-serif;
 
@@ -54,14 +54,6 @@ body{
         }
 }
 
-footer{
-    text-align: center;
-    margin-top: 210px;
-}
-footer p{
-    margin-top: 140px;
-    font-size: 20px;
-}
 
 
 
@@ -70,7 +62,4 @@ footer p{
 
 
 
-/* RENDONS NOTRE PAGE RESPONSIVE */
-@media screen and (max-width: 768px) {
-    
-}
+
